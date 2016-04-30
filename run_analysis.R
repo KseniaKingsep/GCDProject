@@ -44,7 +44,7 @@ run <- run[,extr]
 
 # 1.3. Use descriptive activity names
 activityNums <- rbind(y_train, y_test)
-activityData <- merge(activityNums, activityNames, by="activityNum", sort=FALSE)[["activity"]]
+activityData <- left_join(activityNums, activityNames, by = "activityNum")[["activity"]]
 run$activity <- activityData
 
 # 1.4. Appropriately label the dataset with descriptive variable names

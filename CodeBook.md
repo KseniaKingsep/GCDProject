@@ -110,4 +110,4 @@ Mean and standart deviation features:
 # Run_ave.R variables description
 
 Run_ave.R contains average values for 66 features of the run dataset. Average values were calculated for easg subject and each activity. 
-There are 35 groups in total. 
+There are 180 groups in total. 

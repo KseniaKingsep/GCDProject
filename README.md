@@ -12,7 +12,7 @@ The experiments have been carried out with a group of 30 volunteers. Each person
 
 Original dataset can be found [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip). 
 
-It is separated inro 2 part: train data and test data. The features are unlabeled, and the subject IDs and activity labels are in separate files. 
+It is separated into 2 parts: train data and test data. The features are unlabeled, and the subject IDs and activity labels are in separate files. 
 
 R language was used to combine and tidy the original dataset. 
 
