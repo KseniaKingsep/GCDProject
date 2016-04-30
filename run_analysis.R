@@ -61,5 +61,5 @@ run$subjectId <- rbind(subject_train, subject_test)[[1]]
 run_ave <- run %>% group_by(subjectId, activity) %>% summarise_each(funs(mean))
 
 # 1.6. Saving new datasets
-write.csv(run_ave, file = "run_ave.csv",row.names = FALSE)
-write.csv(run, file = "run.csv",row.names = FALSE)
+write.table(run_ave, file = "run_ave.txt",row.name = FALSE)
+write.table(run, file = "run.txt",row.name = FALSE)
